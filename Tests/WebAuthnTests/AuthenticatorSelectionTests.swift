@@ -21,8 +21,6 @@ import Testing
 
 struct AuthenticatorSelectionTests {
 
-    /// Minimal representation of an encoded ``AuthenticatorSelection`` used to inspect JSON output
-    /// without relying on `JSONSerialization`, which is unavailable in `FoundationEssentials`.
     private struct EncodedAuthenticatorSelection: Decodable {
         let residentKey: String?
         let requireResidentKey: Bool?
