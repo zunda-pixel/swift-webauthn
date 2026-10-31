@@ -52,4 +52,8 @@ struct HelpersTests {
         #expect(URLEncodedBase64(base64URL).urlDecoded.asString() == base64)
         #expect(URLEncodedBase64(base64URL).decodedBytes == bytes)
     }
+    @Test
+    func hexadecimalUsesLowercaseAndLeadingZeros() {
+        #expect(Data([0, 15, 16, 255]).hexadecimal == "000f10ff")
+    }
 }
