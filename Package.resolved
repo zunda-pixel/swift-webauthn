@@ -1,5 +1,5 @@
 {
-  "originHash" : "8c3d5461bf2299efe2af6eb7c5f3774abc1ff76da3fa90d2ce071cd1f368f849",
+  "originHash" : "5bf48b019a814cc2401a793675da67e6f77a34572e7acc3284701bf8fab10cb2",
   "pins" : [
     {
       "identity" : "swift-asn1",
@@ -49,10 +49,9 @@
     {
       "identity" : "swiftcbor",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/unrelentingtech/SwiftCBOR.git",
+      "location" : "https://github.com/sauna-studio/SwiftCBOR.git",
       "state" : {
-        "revision" : "fd929a6d8f7651ce0f63fc99397fd5762358cc29",
-        "version" : "0.6.0"
+        "revision" : "eb8664c774024cfd0599757b3f7d75cdd09ca9cc"
       }
     }
   ],
