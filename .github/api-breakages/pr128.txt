@@ -1,0 +1,122 @@
+API breakage: enum COSEAlgorithmIdentifier is now with @nonexhaustive
+API breakage: struct WebAuthnError is now with @nonexhaustive
+API breakage: struct WebAuthnError has been changed to a enum
+API breakage: var WebAuthnError.attestedCredentialDataMissing is now not static
+API breakage: var WebAuthnError.attestedCredentialDataMissing has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.attestedCredentialDataMissing.Get() has been removed
+API breakage: var WebAuthnError.relyingPartyIDHashDoesNotMatch is now not static
+API breakage: var WebAuthnError.relyingPartyIDHashDoesNotMatch has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.relyingPartyIDHashDoesNotMatch.Get() has been removed
+API breakage: var WebAuthnError.userPresentFlagNotSet is now not static
+API breakage: var WebAuthnError.userPresentFlagNotSet has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.userPresentFlagNotSet.Get() has been removed
+API breakage: var WebAuthnError.invalidSignature is now not static
+API breakage: var WebAuthnError.invalidSignature has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidSignature.Get() has been removed
+API breakage: var WebAuthnError.userVerificationRequiredButFlagNotSet is now not static
+API breakage: var WebAuthnError.userVerificationRequiredButFlagNotSet has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.userVerificationRequiredButFlagNotSet.Get() has been removed
+API breakage: var WebAuthnError.attestationStatementMustBeEmpty is now not static
+API breakage: var WebAuthnError.attestationStatementMustBeEmpty has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.attestationStatementMustBeEmpty.Get() has been removed
+API breakage: var WebAuthnError.attestationVerificationNotSupported is now not static
+API breakage: var WebAuthnError.attestationVerificationNotSupported has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.attestationVerificationNotSupported.Get() has been removed
+API breakage: var WebAuthnError.invalidUserID is now not static
+API breakage: var WebAuthnError.invalidUserID has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidUserID.Get() has been removed
+API breakage: var WebAuthnError.unsupportedCredentialPublicKeyAlgorithm is now not static
+API breakage: var WebAuthnError.unsupportedCredentialPublicKeyAlgorithm has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.unsupportedCredentialPublicKeyAlgorithm.Get() has been removed
+API breakage: var WebAuthnError.credentialIDAlreadyExists is now not static
+API breakage: var WebAuthnError.credentialIDAlreadyExists has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.credentialIDAlreadyExists.Get() has been removed
+API breakage: var WebAuthnError.userVerifiedFlagNotSet is now not static
+API breakage: var WebAuthnError.userVerifiedFlagNotSet has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.userVerifiedFlagNotSet.Get() has been removed
+API breakage: var WebAuthnError.potentialReplayAttack is now not static
+API breakage: var WebAuthnError.potentialReplayAttack has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.potentialReplayAttack.Get() has been removed
+API breakage: var WebAuthnError.invalidAssertionCredentialType is now not static
+API breakage: var WebAuthnError.invalidAssertionCredentialType has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidAssertionCredentialType.Get() has been removed
+API breakage: var WebAuthnError.invalidAttestationObject is now not static
+API breakage: var WebAuthnError.invalidAttestationObject has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidAttestationObject.Get() has been removed
+API breakage: var WebAuthnError.invalidAuthData is now not static
+API breakage: var WebAuthnError.invalidAuthData has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidAuthData.Get() has been removed
+API breakage: var WebAuthnError.invalidFmt is now not static
+API breakage: var WebAuthnError.invalidFmt has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidFmt.Get() has been removed
+API breakage: var WebAuthnError.missingAttStmt is now not static
+API breakage: var WebAuthnError.missingAttStmt has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.missingAttStmt.Get() has been removed
+API breakage: var WebAuthnError.attestationFormatNotSupported is now not static
+API breakage: var WebAuthnError.attestationFormatNotSupported has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.attestationFormatNotSupported.Get() has been removed
+API breakage: var WebAuthnError.invalidCredentialCreationType is now not static
+API breakage: var WebAuthnError.invalidCredentialCreationType has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidCredentialCreationType.Get() has been removed
+API breakage: var WebAuthnError.credentialRawIDTooLong is now not static
+API breakage: var WebAuthnError.credentialRawIDTooLong has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.credentialRawIDTooLong.Get() has been removed
+API breakage: var WebAuthnError.authDataTooShort is now not static
+API breakage: var WebAuthnError.authDataTooShort has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.authDataTooShort.Get() has been removed
+API breakage: var WebAuthnError.attestedCredentialFlagNotSet is now not static
+API breakage: var WebAuthnError.attestedCredentialFlagNotSet has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.attestedCredentialFlagNotSet.Get() has been removed
+API breakage: var WebAuthnError.extensionDataMissing is now not static
+API breakage: var WebAuthnError.extensionDataMissing has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.extensionDataMissing.Get() has been removed
+API breakage: var WebAuthnError.leftOverBytesInAuthenticatorData is now not static
+API breakage: var WebAuthnError.leftOverBytesInAuthenticatorData has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.leftOverBytesInAuthenticatorData.Get() has been removed
+API breakage: var WebAuthnError.credentialIDTooLong is now not static
+API breakage: var WebAuthnError.credentialIDTooLong has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.credentialIDTooLong.Get() has been removed
+API breakage: var WebAuthnError.credentialIDTooShort is now not static
+API breakage: var WebAuthnError.credentialIDTooShort has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.credentialIDTooShort.Get() has been removed
+API breakage: var WebAuthnError.invalidPublicKeyLength is now not static
+API breakage: var WebAuthnError.invalidPublicKeyLength has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidPublicKeyLength.Get() has been removed
+API breakage: var WebAuthnError.badPublicKeyBytes is now not static
+API breakage: var WebAuthnError.badPublicKeyBytes has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.badPublicKeyBytes.Get() has been removed
+API breakage: var WebAuthnError.invalidKeyType is now not static
+API breakage: var WebAuthnError.invalidKeyType has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidKeyType.Get() has been removed
+API breakage: var WebAuthnError.invalidAlgorithm is now not static
+API breakage: var WebAuthnError.invalidAlgorithm has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidAlgorithm.Get() has been removed
+API breakage: var WebAuthnError.invalidCurve is now not static
+API breakage: var WebAuthnError.invalidCurve has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidCurve.Get() has been removed
+API breakage: var WebAuthnError.invalidXCoordinate is now not static
+API breakage: var WebAuthnError.invalidXCoordinate has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidXCoordinate.Get() has been removed
+API breakage: var WebAuthnError.invalidYCoordinate is now not static
+API breakage: var WebAuthnError.invalidYCoordinate has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidYCoordinate.Get() has been removed
+API breakage: var WebAuthnError.unsupportedCOSEAlgorithm is now not static
+API breakage: var WebAuthnError.unsupportedCOSEAlgorithm has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.unsupportedCOSEAlgorithm.Get() has been removed
+API breakage: var WebAuthnError.unsupportedCOSEAlgorithmForEC2PublicKey is now not static
+API breakage: var WebAuthnError.unsupportedCOSEAlgorithmForEC2PublicKey has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.unsupportedCOSEAlgorithmForEC2PublicKey.Get() has been removed
+API breakage: var WebAuthnError.invalidModulus is now not static
+API breakage: var WebAuthnError.invalidModulus has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidModulus.Get() has been removed
+API breakage: var WebAuthnError.invalidExponent is now not static
+API breakage: var WebAuthnError.invalidExponent has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.invalidExponent.Get() has been removed
+API breakage: var WebAuthnError.unsupportedCOSEAlgorithmForRSAPublicKey is now not static
+API breakage: var WebAuthnError.unsupportedCOSEAlgorithmForRSAPublicKey has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.unsupportedCOSEAlgorithmForRSAPublicKey.Get() has been removed
+API breakage: var WebAuthnError.unsupported is now not static
+API breakage: var WebAuthnError.unsupported has declared type change from WebAuthn.WebAuthnError to (WebAuthn.WebAuthnError.Type) -> WebAuthn.WebAuthnError
+API breakage: accessor WebAuthnError.unsupported.Get() has been removed
+API breakage: func WebAuthnManager.finishRegistration(challenge:credentialCreationData:requireUserVerification:supportedPublicKeyAlgorithms:pemRootCertificatesByFormat:confirmCredentialIDNotRegisteredYet:) is now with nonisolated
+API breakage: extension Data has removed conformance to CBOREncodable

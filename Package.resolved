@@ -1,0 +1,60 @@
+{
+  "originHash" : "3f7197182c7bd5d8ca77d696517516ff3362b887d70e43fd2a9917c34bbc211d",
+  "pins" : [
+    {
+      "identity" : "swift-asn1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-asn1.git",
+      "state" : {
+        "revision" : "3b6410f7dee09eb33cdd26260c5fd47fda19b0e2",
+        "version" : "1.7.3"
+      }
+    },
+    {
+      "identity" : "swift-cbor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/brokenhandsio/swift-cbor.git",
+      "state" : {
+        "revision" : "52432a1118bcbabb9a973330c3af85d8ddf3f015",
+        "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "c2cbadd7263439d8015189668f96ff5b5be565ce",
+        "version" : "5.0.3"
+      }
+    },
+    {
+      "identity" : "swift-docc-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-docc-plugin.git",
+      "state" : {
+        "revision" : "647c708be89f834fa6a6d4945442793a77ddf5b6",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "swift-docc-symbolkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-docc-symbolkit",
+      "state" : {
+        "revision" : "b45d1f2ed151d057b54504d653e0da5552844e34",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "c9c6bb9d275ec0d95c3ad16391f3f045dc623104",
+        "version" : "1.16.2"
+      }
+    }
+  ],
+  "version" : 3
+}

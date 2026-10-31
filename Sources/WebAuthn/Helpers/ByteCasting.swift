@@ -12,9 +12,9 @@
 //===----------------------------------------------------------------------===//
 
 #if canImport(FoundationEssentials)
-import FoundationEssentials
+public import FoundationEssentials
 #else
-import Foundation
+public import Foundation
 #endif
 
 extension BidirectionalCollection where Element == UInt8 {
@@ -26,9 +26,9 @@ extension BidirectionalCollection where Element == UInt8 {
         precondition(self.count == MemoryLayout<R>.size, "self.count (\(self.count)) does not match MemoryLayout<R>.size (\(MemoryLayout<R>.size))")
         
         let result = self.withContiguousStorageIfAvailable({
-            $0.withUnsafeBytes { $0.loadUnaligned(as: R.self) }
+            unsafe $0.withUnsafeBytes { unsafe $0.loadUnaligned(as: R.self) }
         }) ?? Array(self).withUnsafeBytes {
-            $0.loadUnaligned(as: R.self)
+            unsafe $0.loadUnaligned(as: R.self)
         }
         
         return result

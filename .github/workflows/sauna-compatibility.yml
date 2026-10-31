@@ -1,0 +1,13 @@
+name: Sauna Swift compatibility
+on:
+  pull_request:
+  push:
+    branches: [main, 'codex/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  swift:
+    uses: sauna-studio/.github/.github/workflows/reusable-swift.yml@84222ff551e9b6e9bab6ba4f29fe3ddb990b37cb
+    permissions:
+      contents: read

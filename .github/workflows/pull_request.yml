@@ -4,21 +4,25 @@ on:
   pull_request:
     types: [opened, reopened, synchronize]
 
+permissions:
+  contents: read
+
 jobs:
   soundness:
     name: Soundness
-    uses: swiftlang/github-workflows/.github/workflows/soundness.yml@main
+    uses: swiftlang/github-workflows/.github/workflows/soundness.yml@c8168b61724acf8534260c5b2b0b8dc6db1ab5a0
     with:
       license_header_check_project_name: "Swift WebAuthn"
+      api_breakage_check_allowlist_path: ".github/api-breakages/pr128.txt"
       shell_check_enabled: false
       format_check_enabled: false
       docs_check_enabled: false
 
   unit-tests:
     name: Unit tests
-    uses: swiftlang/github-workflows/.github/workflows/swift_package_test.yml@main
+    uses: swiftlang/github-workflows/.github/workflows/swift_package_test.yml@c8168b61724acf8534260c5b2b0b8dc6db1ab5a0
     with:
-      linux_exclude_swift_versions: "[{\"swift_version\": \"5.8\"}, {\"swift_version\": \"5.9\"}, {\"swift_version\": \"5.10\"}]"
-      windows_exclude_swift_versions: "[{\"swift_version\": \"5.8\"}, {\"swift_version\": \"5.9\"}, {\"swift_version\": \"5.10\"}]"
+      linux_exclude_swift_versions: "[{\"swift_version\": \"5.8\"}, {\"swift_version\": \"5.9\"}, {\"swift_version\": \"5.10\"}, {\"swift_version\": \"6.1\"}, {\"swift_version\": \"6.2\"}, {\"swift_version\": \"6.3\"}]"
+      windows_exclude_swift_versions: "[{\"swift_version\": \"5.8\"}, {\"swift_version\": \"5.9\"}, {\"swift_version\": \"5.10\"}, {\"swift_version\": \"6.1\"}, {\"swift_version\": \"6.2\"}, {\"swift_version\": \"6.3\"}]"
       swift_flags: "-Xswiftc -warnings-as-errors --explicit-target-dependency-import-check error -Xswiftc -require-explicit-sendable"
       swift_nightly_flags: "--explicit-target-dependency-import-check error -Xswiftc -require-explicit-sendable"
