@@ -13,6 +13,7 @@
 
 #if canImport(FoundationEssentials)
 public import FoundationEssentials
+import Foundation
 #else
 public import Foundation
 #endif
